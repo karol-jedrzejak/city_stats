@@ -1,0 +1,11 @@
+
+Technologie do nauki
+- symfony
+- api
+- tailwind
+- postgres
+
+
+Ideas
+- City Stats
+- CV Generator
