@@ -12,10 +12,7 @@ class TestController extends AbstractController
     #[Route('/test', methods:['GET'], name: 'app_test.index')]
     public function index(): Response
     {
-        return new Response (
-            "<div>test</div>".
-            $this->generateUrl('app_test.index')
-        );
+        return $this->render('test.html.twig');
     } 
 
     #[Route('/test/{id}', methods:['GET'], name: 'app_test.nr')]
